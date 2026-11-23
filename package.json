@@ -1,0 +1,19 @@
+{
+  "name": "fifacher",
+  "version": "1.0.0",
+  "description": "Broadcast-quality football game in Three.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node --check server.js",
+    "lint": "node --check server.js",
+    "serve": "node server.js",
+    "shot": "node tools/shot.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "puppeteer-core": "^22.15.0",
+    "three": "^0.166.1"
+  }
+}
